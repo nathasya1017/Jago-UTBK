@@ -1,0 +1,518 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2c1239;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+    display: flex;
+}
+
+
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    background: #441752;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo a img{
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px ;
+    margin-left: 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 10px 25px 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color:#ff67ae;
+    font-weight: bolder;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+a.tbl-biru{
+    background: #1a1652;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: #ff67ae;
+    text-decoration: none;
+    text-shadow: whitesmoke;
+    color: white;
+}
+
+/*isi*/
+.wrapperr{
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 90px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+
+p1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21px;
+    font-weight: 0;
+    color: white;
+}
+
+.belajar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    color: white;
+}
+
+.belajar:hover{
+    text-transform: capitalize;
+    text-decoration: bolder;
+    color: white;
+
+}
+
+
+a.tbl2{
+    background: #8c5387;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl2:hover{
+    background: #c77dad;
+}
+
+/*imagess*/
+
+/*foto*/
+.images{
+    display: flex;
+    width: 100%;
+    transition: 3s;
+}
+
+.wrapperrr{
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#slides1:target ~ .images{
+    margin-left: 0px;
+}
+
+#slides2:target ~ .images{
+    margin-left: -110%;
+}
+
+#slides3:target ~ .images{
+    margin-left: -220%;
+}
+
+.navigasi a{
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 50%;
+    margin: 3px;
+    font-size: 0px;
+}
+
+.navigasi a:hover{
+    background-color: rgb(182, 182, 255);
+}
+
+.navigasi{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*belajar*/
+.wrapperrrr{
+    width: 20px;
+    color: #efb2ff;
+}
+
+.wrapperrrr h3{
+    margin: auto;
+    margin-left: 100px;
+    font-size: 30px;
+    width: 100%;
+}
+
+.blajar{
+    display: flex;
+    margin-left: 90px;
+}
+
+.tps{
+   background-color: #3a1a45;
+   border-radius: 15px;
+   margin-top: 20px;
+   padding: 20px 25px 20px 25px;
+   border-width: 80px;
+   color: white;
+   cursor: pointer;
+}
+
+.tps h3 a{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.tps p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.tps h3 a:hover{
+    color: #c77dad;
+}
+
+.pm{
+    background-color: #3a1a45;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px 25px 20px 25px;
+    border-width: 80px;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+}
+ 
+.pm h3 a{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+ 
+.pm p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+ 
+.pm h3 a:hover{
+    color: #c77dad;
+}
+
+.lit{
+    background-color: #3a1a45;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px 25px 20px 25px;
+    margin-left: 30px;
+    border-width: 80px;
+    color: white;
+    cursor: pointer;
+}
+ 
+.lit h3 a{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+ 
+.lit p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+ 
+.lit h3 a:hover{
+    color: #c77dad;
+}
+
+/*soal*/
+.wrapperrrrr{
+    width: 20px;
+    color: #efb2ff;
+}
+
+.wrapperrrrr h3{
+    margin: auto;
+    margin-left: 100px;
+    font-size: 30px;
+    width: 100%;
+}
+
+.soal{
+    display: flex;
+    margin-left: 90px;
+}
+
+.ltps{
+   background-color: #3a1a45;
+   border-radius: 15px;
+   margin-top: 20px;
+   padding: 20px 25px 20px 25px;
+   border-width: 80px;
+   color: white;
+   cursor: pointer;
+}
+
+.ltps h3 a{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.ltps p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.ltps h3 a:hover{
+    color: #c77dad;
+}
+
+.lpm{
+    background-color: #3a1a45;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px 25px 20px 25px;
+    border-width: 80px;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+}
+ 
+.lpm h3 a{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+ 
+.lpm p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+ 
+.lpm h3 a:hover{
+    color: #c77dad;
+}
+
+.llit{
+    background-color: #3a1a45;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 20px 25px 20px 25px;
+    margin-left: 30px;
+    border-width: 80px;
+    color: white;
+    cursor: pointer;
+}
+ 
+.llit h3 a{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+ 
+.llit p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+ 
+.llit h3 a:hover{
+    color: #c77dad;
+}
+
+
+/*footer*/
+.footer{
+ background-color: #210d2c;   
+}
+
+.logo2{
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+
+.logo2 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.deskripsi p{
+    margin-left: 60px;
+    margin-right: 60px;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+/*link*/
+.link{
+    display: flex;
+    max-width: 100%;
+    margin-left: 100px;
+}
+
+/*belajar*/
+.lblajar{
+    margin-left: 80px;
+}
+
+.lblajar p{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.linkb a{
+    color: white;
+    font-size: 13px;
+}
+
+.linkb a:hover{
+    text-decoration: underline;
+}
+
+/*latsol*/
+.llatsol{
+    margin-left: 80px;
+}
+
+.llatsol p{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.linkl a{
+    color: white;
+    font-size: 13px;
+}
+
+.linkl a:hover{
+    text-decoration: underline;
+}
+
+/*sosmed*/
+.lsosmed{
+    margin-left: 80px;
+}
+
+.lsosmed p{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.links a{
+    color: white;
+    font-size: 13px;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
+/*ikon ink*/
+.ikonlink{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 11px;
+}
+
+.copyright{
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/**/
+@media screen and (max-width: 991.98) {
+    .wrapper{
+        width: 90%;
+    }
+    .wrapperr{
+        width: 90%;
+    }
+    .wrapperrr{
+        width: 90%;
+    }
+    .wrapperrrr{
+        width: 90%;
+    }
+    .wrapperrrrr{
+        width: 90%;
+    }
+}
